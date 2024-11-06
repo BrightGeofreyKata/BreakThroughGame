@@ -1,0 +1,41 @@
+BRIGHT KATA: BREAK THROUGH GAME TEST LIST
+
+Sprint 1: Board and Piece Initialization
+X Test to make sure the board is 8*8
+X Test initialization of board (Black pawns at rows 0 and 1 and White pawns at rows 6 and 7)
+X Test to make sure rows 2-5 are empty at the start of the game. 
+
+Sprint 2: Pawn Moves. 
+X Test to make sure pawns move forward only one space (Valid move). 
+X Test to make sure pawns move diagonally to capture opponent piece. 
+X Test to make sure pawn can not move backwards. 
+X Test to make sure pawn can not move to the side. 
+X Test to make sure pawn can not move diagonally if space is empty. 
+X Test to make sure pawn can not move diagonally and capture piece of same color. 
+X Test that pawn can not move forward if space is occupied. 
+X Test that pawn can not move forward or diagonally more than one step in a single turn/move. 
+
+Sprint 3: Capturing and Winning
+
+X Test that a pawn can capture opponent piece in different color. 
+X Test that a pawn can not capture piece thats of the same color. 
+X Test that a pawn can not capture an opponent piece if space is empty. 
+X Test that pawn can not capture an opponent piece by moving forward. Only diagonally. 
+X Test that once a capture is made, the oppoent piece is removed from the board. 
+X Test that pawn does not automatically capture but waits for the player to make a move. 
+
+Sprint 4: Game Theory & Conditions. 
+X Test that the game ends when either of the player's pawns reach the opposite end of the board. 
+X Test that the game ends when all pieces of one color are captured. 
+X Test that the game ends when either player has no valid moves left. (Stalemate)
+X Test that the game identifies the winner when the game ends. 
+
+Sprint 5: Player Turns. 
+X Test that the game alternates between the two pl\ayers after each valid move. 
+X Test that the game does not allow for either player to make a move when it is not their turn. 
+X Test that the game does not allow for a player to make a move with the wrong piece (of different color). 
+X Test that the a wrong/invalid move does not change the turn of the player. 
+X Test that the game does not allow for a player to make a move when the game has ended. 
+
+Sprint 6: Off Board Rules
+X Test that the game does not allow for a player to move a piece outside the board. 
